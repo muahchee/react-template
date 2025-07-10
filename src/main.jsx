@@ -5,10 +5,11 @@ import App from "./App.jsx";
 
 import { Greeting } from "./Greeting.jsx";
 import { Robot } from "./assets/Robot.jsx";
-import { Test } from "./Test.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Test />
+    <Greeting />
+    <Robot />
   </StrictMode>
 );
+
